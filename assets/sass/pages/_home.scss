@@ -1,0 +1,94 @@
+// Styles for Home Page
+.home-page {
+    background: $white;
+    padding: 40px;
+    cursor: crosshair;
+    @include cf();
+
+    .people-container {
+        width: 75%;
+        margin: 0 auto;
+
+        .people-wrapper {
+            @include col(1/3, 0, 3);
+            margin-bottom: 20px;
+
+            .person {
+                background: rgba($cyan, 0.6);
+                color: $white;
+                opacity: 0;
+                transition: opacity 500ms;
+                cursor: pointer;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                text-align: center;
+
+                &.Brandon {
+                    background: rgba($red, 0.75);
+                }
+
+                &.Patrick {
+                    background: rgba($purple, 0.75);
+                }
+
+                &.Neil {
+                    background: rgba($green, 0.75);
+                }
+
+                &.Davinci {
+                    background: rgba($orange, 0.75);
+                }
+
+                &.Elmer {
+                    background: rgba($indigo, 0.75);
+                }
+
+                &.Janel {
+                    background: rgba($pink, 0.75);
+                }
+
+                &.Samantha {
+                    background: rgba($teal, 0.75);
+                }
+
+                &.Elizabeth {
+                    background: rgba($yellow, 0.75);
+                }
+
+                &.Allan {
+                    background: rgba($blue, 0.75);
+                }
+
+                .name {
+                    @include vertical-align();
+                    @include txt-title-x-lg();
+                    color: white;
+                    font-family: 'Open Sans', sans-serif;
+                    font-weight: bold;
+                }
+            }
+
+            .prof {
+                width: 100%;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            &:hover {
+
+                .prof {
+                    opacity: 0.5;
+                }
+
+                .person {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}

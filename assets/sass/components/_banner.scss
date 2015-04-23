@@ -1,0 +1,37 @@
+.banner {
+    @include clearfix();
+    background: $cyan;
+    height: 80px;
+    padding-left: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999999;
+    width: 100%;
+    cursor: crosshair;
+
+    .logo {
+        float: left;
+        margin: 20 10px;
+        padding: 2px;
+        height: 40px;
+        cursor: pointer;
+        img {
+            height: 100%;
+        }
+    }
+
+    .header {
+        @include clearfix();
+        float: left;
+        .header-text {
+            float: left;
+            margin: 20 10px;
+            font-size: 20px;
+            padding: 10px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+            color: $white;
+        }
+    }
+}

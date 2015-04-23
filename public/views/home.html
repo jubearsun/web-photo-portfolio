@@ -1,0 +1,14 @@
+<div class="home-page" ng-controller="HomeCtrl">
+	<div class="people-container">
+	    <div class="people-wrapper" ng-repeat="person in people track by $index" ui-sref="{{person.link}}">
+	    	<div class="prof">
+	    		<img src="{{person.url}}">
+	    	</div>
+	    	<div class="person {{ person.name }}">
+		    	<div class="name">
+		    		{{person.name}}
+		    	</div>
+		    </div>
+	    </div>
+	</div>
+</div>
