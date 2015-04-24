@@ -8,42 +8,42 @@ app.controller('HomeCtrl', ['$scope', function($scope) {
             link: "brandon"
         },
         {
-            url: "https://api.fnkr.net/testimg/480x480/00CED1/FFF/?text=img",
+            url: "../img/patrick/profile.jpg",
             name: 'Patrick Lin',
             link: "patrick"
         },
         {
-            url: "https://api.fnkr.net/testimg/480x480/00CED1/FFF/?text=img",
+            url: "../img/neil/profile.jpg",
             name: 'Neil Pedreira',
             link: "neil"
         },
         {
-            url: "https://api.fnkr.net/testimg/480x480/00CED1/FFF/?text=img",
+            url: "../img/davinci/profile.jpg",
             name: 'Davinci Lam',
             link: "davinci"
         },
         {
-            url: "https://api.fnkr.net/testimg/480x480/00CED1/FFF/?text=img",
-            name: 'Elmer Pangilinan',
-            link: "elmer"
+            url: "../img/shota/profile.jpg",
+            name: 'Shota Pangilinan',
+            link: "shota"
         },
         {
-            url: "https://api.fnkr.net/testimg/480x480/00CED1/FFF/?text=img",
+            url: "../img/janel/profile.jpg",
             name: 'Janel Kajisa',
             link: "janel"
         },
         {
-            url: "https://api.fnkr.net/testimg/480x480/00CED1/FFF/?text=img",
+            url: "../img/samantha/profile.jpg",
             name: 'Samantha Cristol',
             link: "samantha"
         },
         {
-            url: "https://api.fnkr.net/testimg/480x480/00CED1/FFF/?text=img",
+            url: "../img/elizabeth/profile.jpg",
             name: 'Elizabeth Ling',
             link: "elizabeth"
         },
         {
-            url: "https://api.fnkr.net/testimg/480x480/00CED1/FFF/?text=img",
+            url: "../img/allan/profile.jpg",
             name: 'Allan Peng',
             link: "allan"
         }     

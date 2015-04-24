@@ -81,11 +81,11 @@ app.config(['$stateProvider',
                     pageTitle: 'Portfolio | Davinci'
                 }
             })
-            .state('elmer', {
-                url: '/elmer',
-                templateUrl: './views/elmer.html',
+            .state('shota', {
+                url: '/shota',
+                templateUrl: './views/shota.html',
                 data: {
-                    pageTitle: 'Portfolio | Elmer'
+                    pageTitle: 'Portfolio | Shota'
                 }
             })
             .state('janel', {
