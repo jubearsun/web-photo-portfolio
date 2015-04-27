@@ -1,0 +1,43 @@
+.member-page {
+    cursor: crosshair;
+}
+
+.member-container {
+	width: 80%;
+	margin: auto;
+
+	.member {
+		display: inline-block;
+		margin: 50 50 50 50;
+	}
+	.circular img {
+		width: 300px;
+		height: 300px;
+		border-radius: 150px;
+		float: left;
+	}
+	.info {
+		padding-left: 350px;
+
+		.bio {
+			padding-left: 2px;
+			font-size: 24px;
+			line-height: 36px;
+			font-family: 'Open Sans Condensed', sans-serif;
+		}
+	}
+	.name {
+		font-size: 42px;
+		font-family: 'Pacifico', sans-serif;
+		font-weight: bold;
+		margin: 50 0 50 0;
+	}
+	.pieces {
+		text-align: center;
+	}
+
+	.pieces img {
+		width: 540px;
+    	height: auto;
+	}
+}
