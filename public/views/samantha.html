@@ -7,8 +7,14 @@
     			<div class="bio">Samantha is a freshman in civil engineering, a sorority girl, and a recreational photographer. She shoots with a Nikon D7000 and has been photographing for over 6 years.</div>
     		</div>
 		</div>
-		<div class="pieces" ng-repeat="image in pieces track by $index">
-			<img src="{{image}}">
+		<ul class="carousel" rn-carousel rn-carousel-auto-slide="2" rn-carousel-transition="hexagon" rn-carousel-pause-on-hover rn-carousel-easing="easeFrom" rn-carousel-duration="1000" rn-carousel-index="carouselIndex">
+			<li class="images" ng-repeat="image in pieces track by $index">
+				<img src="{{image}}">
+			</li>
+		</ul>
+
+		<div class="indicator" rn-carousel-index="carouselIndex">
+			<span ng-repeat="image in pieces track by $index" ng-class="{active: $index==carouselIndex}" ng-click="goToSlide($index)"> ♦ </span>
 		</div>
 	</div>
 </div>
