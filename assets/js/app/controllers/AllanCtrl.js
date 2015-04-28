@@ -8,4 +8,8 @@ app.controller('AllanCtrl', ['$scope', function($scope) {
    		'../img/allan/img4.jpg'
 
     ];
+
+     $scope.goToSlide = function(index) {
+    	$scope.carouselIndex = index;
+    };
 }]);

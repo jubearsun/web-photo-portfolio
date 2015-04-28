@@ -48,11 +48,15 @@
 		@include horizontal-align();
 		display: inline-block;
 		margin-bottom: 50px;
+
 		.span {
 			color: black;
 		}
 		.active {
-			color: $blue;
+			color: $cyan;
+		}
+		&:hover {
+			cursor: pointer;
 		}
 	}
 

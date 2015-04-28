@@ -6,4 +6,8 @@ app.controller('DavinciCtrl', ['$scope', function($scope) {
    		'../img/davinci/img3.jpg',
    		'../img/davinci/img1.jpg'
     ];
+
+    $scope.goToSlide = function(index) {
+    	$scope.carouselIndex = index;
+    };
 }]);

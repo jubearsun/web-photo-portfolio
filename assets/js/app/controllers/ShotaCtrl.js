@@ -10,4 +10,8 @@ app.controller('ShotaCtrl', ['$scope', function($scope) {
 
     ];
 
+    $scope.goToSlide = function(index) {
+    	$scope.carouselIndex = index;
+    };
+
 }]);

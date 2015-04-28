@@ -9,5 +9,9 @@ app.controller('JanelCtrl', ['$scope', function($scope) {
    		'../img/janel/img5.jpg'
 
     ];
+
+    $scope.goToSlide = function(index) {
+    	$scope.carouselIndex = index;
+    };
     
 }]);

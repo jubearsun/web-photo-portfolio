@@ -8,7 +8,10 @@ app.controller('BrandonCtrl', ['$scope', function($scope) {
    		'../img/brandon/img4.jpg',
    		'../img/brandon/img5.jpg',
    		'../img/brandon/img6.jpg'
-
     ];
+
+    $scope.goToSlide = function(index) {
+    	$scope.carouselIndex = index;
+    };
 
 }]);
