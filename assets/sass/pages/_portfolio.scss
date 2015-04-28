@@ -32,13 +32,16 @@
 		font-weight: bold;
 		margin: 50 0 50 0;
 	}
-	.pieces {
-		text-align: center;
+	.carousel {
+		width: 540px;
+		height: 350px;
+		margin-bottom: 20px;
+		@include horizontal-align();
+
+		.images img {
+			width: 540px;
+			height: auto;
+		}
 	}
 
-	.pieces img {
-		width: 540px;
-    	height: auto;
-    	margin-bottom: 20px;
-	}
 }

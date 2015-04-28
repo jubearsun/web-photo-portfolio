@@ -5,12 +5,14 @@
     		<div class="info">
     			<div class="name">Brandon Chau</div>
     			<div class="bio">
-    				Brandon is a sophomore intended CS, a portrait & event photographer based in the Bay Area. He hopes to someday travel the world and continue to add to his visual journal. Swiggity Swiggity Swooty Comin’ for dat Booty.
+    				Brandon is a sophomore intended CS, a portrait and event photographer based in the Bay Area. He hopes to someday travel the world and continue to add to his visual journal. Swiggity Swiggity Swooty Comin’ for dat Booty.
     			</div>
     		</div>
 		</div>
-		<div class="pieces" ng-repeat="image in pieces track by $index">
-			<img src="{{image}}">
-		</div>
+		<ul class="carousel" rn-carousel rn-carousel-auto-slide="1.5" rn-carousel-transition="hexagon" rn-carousel-pause-on-hover>
+			<li class="images" ng-repeat="image in pieces track by $index">
+				<img src="{{image}}">
+			</li>
+		</ul>
 	</div>
 </div>

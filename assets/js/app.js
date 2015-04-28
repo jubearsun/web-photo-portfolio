@@ -1,6 +1,7 @@
 var app = angular.module('cle', [
         'ui.router',
-        'ngTouch'
+        'ngTouch',
+        'angular-carousel'
     ]);
 
 app.run(['$rootScope',
