@@ -35,12 +35,24 @@
 	.carousel {
 		width: 540px;
 		height: 350px;
-		margin-bottom: 20px;
+		text-align: center;
+		margin-bottom: 10px;
 		@include horizontal-align();
-
 		.images img {
-			width: 540px;
-			height: auto;
+			width: auto;
+			height: 100%;
+		}
+	}
+
+	.indicator {
+		@include horizontal-align();
+		display: inline-block;
+		margin-bottom: 50px;
+		.span {
+			color: black;
+		}
+		.active {
+			color: $blue;
 		}
 	}
 
