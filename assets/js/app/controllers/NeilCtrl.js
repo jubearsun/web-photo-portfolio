@@ -6,7 +6,6 @@ app.controller('NeilCtrl', ['$scope', function($scope) {
    		'../img/neil/img3.jpg',
    		'../img/neil/img1.jpg',
    		'../img/neil/img4.jpg',
-   		'../img/neil/img5.jpg',
    		'../img/neil/img6.jpg',
    		'../img/neil/img7.jpg'
 
